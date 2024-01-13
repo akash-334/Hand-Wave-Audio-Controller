@@ -12,6 +12,7 @@ import numpy as np
 from ctypes import cast, POINTER
 from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
+import math
 
 
 # In[15]:
@@ -71,32 +72,6 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
-
-# In[4]:
-
-
-import math
-
-
-# In[16]:
-
-
-pip install pycaw
-
-
-# In[9]:
-
-
-print(volume.GetVolumeRange())
-
-
-# In[10]:
-
-
-import numpy as np
-
-
-# In[ ]:
 
 
 
